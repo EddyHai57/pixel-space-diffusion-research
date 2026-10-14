@@ -1,0 +1,33 @@
+# Local context and third-party paper copies
+/research/context/
+/literature/pdfs/
+/tmp/
+
+# Data, model checkpoints and generated results
+/data/*
+!/data/README.md
+/outputs/*
+!/outputs/.gitkeep
+/external/*
+!/external/.gitkeep
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Environments, caches and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+node_modules/
+.aws/
+.ssh/
+.codex/
+.agents/
+*.pem
+*.key
